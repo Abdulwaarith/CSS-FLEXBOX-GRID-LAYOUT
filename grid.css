@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.grid-container {
+  max-width: 70%;
+  display: grid;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 2em;
+  grid-template-areas:
+    "a a a b b"
+    "a a a b b"
+    "c c d d d"
+    "c c e e e";
+  gap: 1em;
+}
+.item1 {
+  background-color: hsl(31, 87%, 32%);
+  padding: 5.5em;
+  grid-area: a;
+}
+.item2 {
+  background-color: hsl(27, 87%, 37%);
+  padding: 5.5em;
+  grid-area: b;
+}
+.item3 {
+  background-color: hsl(31, 77%, 42%);
+  padding: 4.5em;
+  grid-area: c;
+}
+.item4 {
+  background-color: hsl(31, 77%, 45%);
+  padding: 4em;
+  grid-area: d;
+}
+.item5 {
+  background-color: hsl(25, 77%, 62%);
+  padding: 4.5em;
+  grid-area: e;
+}
+.links {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: "Lexend Deca", sans-serif;
+}
+a {
+  background-color: red;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  margin-right: 10px;
+}
