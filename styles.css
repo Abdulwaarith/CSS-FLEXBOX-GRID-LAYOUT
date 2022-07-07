@@ -11,7 +11,7 @@ body {
 
 .flex-container {
   max-width: 70%;
-  margin: 50px auto 30px auto;
+  margin: 30px auto 30px auto;
 }
 .car {
   padding: 2em 4em 3em 4em;
@@ -70,8 +70,7 @@ p {
 }
 .links {
   text-align: center;
-  /* margin-top: 0.5em; */
-  margin-bottom: 1em;
+  margin-top: 1.5em;
   font-family: "Lexend Deca", sans-serif;
 }
 a {
